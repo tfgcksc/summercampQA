@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>暑期營隊 QA</title>
+  <style>
+    :root {
+      --bg: #1f2942;
+      --card: #dcc8aa;
+      --primary: #e86f1f;
+      --text: #2f211a;
+      --muted: #4f3e34;
+      --border: #7f664f;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+      background:
+        radial-gradient(circle at 12% 8%, rgba(241, 193, 96, 0.15) 0%, transparent 28%),
+        radial-gradient(circle at 88% 22%, rgba(241, 193, 96, 0.12) 0%, transparent 24%),
+        radial-gradient(circle at 50% 100%, rgba(134, 96, 67, 0.22) 0%, transparent 40%),
+        linear-gradient(180deg, #253253 0%, #1f2942 48%, #182136 100%),
+        var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      padding: 24px 16px 48px;
+    }
+
+    .container {
+      max-width: 920px;
+      margin: 0 auto;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, rgba(35, 26, 20, 0.92), rgba(52, 39, 30, 0.88));
+      color: #ffd8b3;
+      border-radius: 16px;
+      padding: 24px;
+      margin-bottom: 20px;
+      border: 1px solid rgba(241, 193, 96, 0.3);
+      box-shadow: 0 10px 28px rgba(11, 15, 24, 0.45);
+    }
+
+    .hero h1 {
+      margin: 0 0 8px;
+      font-size: 1.8rem;
+      color: #f27e24;
+      letter-spacing: 1px;
+      text-align: center;
+      text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+    }
+
+    .hero p {
+      margin: 0;
+      color: #ffc58d;
+      opacity: 0.95;
+      text-align: center;
+    }
+
+    .qa-list {
+      display: grid;
+      gap: 14px;
+    }
+
+    .qa-item {
+      background: var(--card);
+      border: 1px solid rgba(127, 102, 79, 0.7);
+      border-radius: 12px;
+      padding: 16px;
+      box-shadow: 0 8px 20px rgba(14, 20, 32, 0.3);
+    }
+
+    .question {
+      margin: 0;
+      font-weight: 700;
+      color: #39261c;
+    }
+
+    .answer {
+      margin-top: 12px;
+      color: var(--muted);
+      border-top: 1px dashed rgba(127, 102, 79, 0.7);
+      padding-top: 12px;
+    }
+
+    .answer ul {
+      margin: 8px 0 0;
+      padding-left: 20px;
+    }
+
+    .footer {
+      margin-top: 24px;
+      text-align: center;
+      color: #d7b690;
+      font-size: 0.92rem;
+    }
+
+    .links {
+      margin-top: 20px;
+      background: rgba(35, 26, 20, 0.82);
+      border: 1px solid rgba(241, 193, 96, 0.3);
+      border-radius: 12px;
+      padding: 16px;
+      color: #ffd8b3;
+    }
+
+    .links p {
+      margin: 6px 0;
+    }
+
+    .links a {
+      color: #f7b16d;
+      text-decoration: none;
+      word-break: break-all;
+    }
+
+    .links a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <section class="hero">
+      <h1>建北科研聯合暑期營</h1>
+      <p>常見問題整理</p>
+    </section>
+
+    <section class="qa-list">
+      <article class="qa-item">
+        <h2 class="question">1. 建中、北一女科學研習社是什麼？為什麼會有暑期營？</h2>
+        <div class="answer">
+          科學研習社是在建中及北一女歷史悠久的學術性社團，至今已有 40 餘屆，社員眾多、組織結構完整。
+          暑期營是我們最具代表性的活動，今年是第 17 屆，歷年回饋非常好，招生經常額滿。
+          這也是我們唯一開放非社員參加的活動，致力於帶給國三升高一的同學新奇的科學知識，
+          在活動中學習、認識志同道合的新朋友，留下美好的暑假回憶。
+        </div>
+      </article>
+
+      <article class="qa-item">
+        <h2 class="question">2. 我未來不是念建中／北一女，可不可以參加這次營隊？</h2>
+        <div class="answer">
+          完全可以！本次營隊開放全國國三升高一學生參與（國二升國三為輔）。
+          只要你對科學有興趣，想在暑假學到新知、交到新朋友，都非常歡迎加入我們。
+        </div>
+      </article>
+
+      <article class="qa-item">
+        <h2 class="question">3. 如何報名？</h2>
+        <div class="answer">
+          主頁連結中有報名表單，若不知道怎麼操作，也可以私訊我們。
+        </div>
+      </article>
+
+      <article class="qa-item">
+        <h2 class="question">4. 團報就會在同一個小隊嗎？</h2>
+        <div class="answer">
+          不會。團報僅提供優惠，分隊以隨機分布為主。除非有特殊狀況，
+          我們希望大家能透過營隊認識更多不同的朋友。
+        </div>
+      </article>
+
+      <article class="qa-item">
+        <h2 class="question">5. 臨時無法參加營隊，可以退費嗎？</h2>
+        <div class="answer">
+          退費規則如下：
+          <ul>
+            <li>7/4（含）前取消：退費 80%</li>
+            <li>7/5～7/19 取消：退費 50%</li>
+            <li>7/20～7/27 取消：退費 20%</li>
+            <li>7/28（含）後取消：因營隊成本已支出，不退費</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="qa-item">
+        <h2 class="question">6. 報名截止日期？</h2>
+        <div class="answer">
+          報名將於 6/14 23:59 截止，想報名的同學記得把握時間。
+        </div>
+      </article>
+
+      <article class="qa-item">
+        <h2 class="question">7. 若人數額滿，將會如何篩選人員？</h2>
+        <div class="answer">
+          我們會依照報名表單中的回覆內容篩選人員，希望選出最適合本營隊的同學。
+        </div>
+      </article>
+
+      <article class="qa-item">
+        <h2 class="question">8. 團報一定會一起錄取營隊嗎？</h2>
+        <div class="answer">
+          不一定。團報僅提供優惠價，與錄取標準無直接關係。
+        </div>
+      </article>
+
+      <article class="qa-item">
+        <h2 class="question">9. 如果一開始選擇團報，但最後錄取人數低於三人，仍是團報價嗎？</h2>
+        <div class="answer">
+          是的，依舊會是團報優惠價。
+        </div>
+      </article>
+
+      <article class="qa-item">
+        <h2 class="question">10. 每天預計開始和結束時間？</h2>
+        <div class="answer">
+          營隊時間預計每天約 08:00～17:30；第三天（8/6）因晚會活動，將延長至 21:00。
+        </div>
+      </article>
+
+      <article class="qa-item">
+        <h2 class="question">11. 中間有一天臨時有事可以請假嗎？費用會減少嗎？</h2>
+        <div class="answer">
+          可以請假，但因營隊整體規劃與成本考量，請假不另行退費。
+        </div>
+      </article>
+    </section>
+
+    <section class="links">
+      <p>提問表單：<a href="https://forms.gle/157RCczBJTwjS5Dr5" target="_blank" rel="noopener noreferrer">https://forms.gle/157RCczBJTwjS5Dr5</a></p>
+      <p>其他相關網址：<a href="https://linktr.ee/tfgcksc" target="_blank" rel="noopener noreferrer">https://linktr.ee/tfgcksc</a></p>
+    </section>
+
+    <p class="footer">期待暑假與你一起探索科學！</p>
+  </main>
+</body>
+</html>
